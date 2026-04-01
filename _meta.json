@@ -1,0 +1,13 @@
+{
+  "name": "mimo-stt",
+  "version": "1.0.0",
+  "description": "MiMo-V2-Omni speech-to-text plugin for OpenClaw. Transcribes audio to text via Xiaomi MiMo API.",
+  "author": "nciae-zyh",
+  "license": "MIT",
+  "tags": ["stt", "speech", "voice", "xiaomi", "mimo", "transcription"],
+  "requires": {
+    "env": ["MIMO_API_KEY"],
+    "bins": ["node"]
+  },
+  "homepage": "https://github.com/Nciae-Zyh/mimo-stt"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mimo-stt",
+  "name": "MiMo Speech-to-Text",
+  "description": "语音识别插件，使用小米 MiMo-V2-Omni 将音频转录为文字。",
+  "version": "1.0.0",
+  "author": "nciae-zyh",
+  "license": "MIT",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "小米 MiMo API Key"
+      },
+      "apiBase": {
+        "type": "string",
+        "description": "小米 API 地址",
+        "default": "https://api.xiaomimimo.com"
+      }
+    },
+    "required": ["apiKey"]
+  }
+}

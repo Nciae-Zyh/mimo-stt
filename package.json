@@ -1,0 +1,11 @@
+{
+  "name": "mimo-stt",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MiMo-V2-Omni speech-to-text plugin for OpenClaw",
+  "main": "index.ts",
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "license": "MIT"
+}
